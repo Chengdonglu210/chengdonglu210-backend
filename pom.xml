@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.linlinjava</groupId>
-    <artifactId>litemall</artifactId>
+    <groupId>top.chengdonglu</groupId>
+    <artifactId>mall210</artifactId>
     <version>0.1.0</version>
     <packaging>pom</packaging>
 
@@ -20,39 +20,39 @@
     </properties>
 
     <modules>
-        <module>litemall-core</module>
-        <module>litemall-db</module>
-        <module>litemall-wx-api</module>
-        <module>litemall-admin-api</module>
-        <module>litemall-all</module>
-        <module>litemall-all-war</module>
+        <module>mall210-core</module>
+        <module>mall210-db</module>
+        <module>mall210-wx-api</module>
+        <module>mall210-admin-api</module>
+        <module>mall210-all</module>
+        <module>mall210-all-war</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.linlinjava</groupId>
-                <artifactId>litemall-core</artifactId>
+                <groupId>top.chengdonglu210</groupId>
+                <artifactId>mall210-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.linlinjava</groupId>
-                <artifactId>litemall-db</artifactId>
+                <groupId>top.chengdonglu</groupId>
+                <artifactId>mall210-db</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.linlinjava</groupId>
-                <artifactId>litemall-wx-api</artifactId>
+                <groupId>top.chengdonglu</groupId>
+                <artifactId>mall210-wx-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.linlinjava</groupId>
-                <artifactId>litemall-admin-api</artifactId>
+                <groupId>top.chengdonglu</groupId>
+                <artifactId>mall210-admin-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.linlinjava</groupId>
-                <artifactId>litemall-all</artifactId>
+                <groupId>top.chengdonglu</groupId>
+                <artifactId>mall210-all</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -63,7 +63,7 @@
                 <version>1.3.2</version>
             </dependency>
 
-            <!-- Spring Boot pagehelper 依赖 -->
+            <!-- Spring Boot PageHelper 依赖 -->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
