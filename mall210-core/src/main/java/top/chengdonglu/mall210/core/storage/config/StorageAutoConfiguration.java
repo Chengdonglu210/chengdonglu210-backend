@@ -1,10 +1,9 @@
 package top.chengdonglu.mall210.core.storage.config;
 
-import org.linlinjava.litemall.core.storage.*;
+import top.chengdonglu.mall210.core.storage.*;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import top.chengdonglu.mall210.core.storage.*;
 
 @Configuration
 @EnableConfigurationProperties(StorageProperties.class)

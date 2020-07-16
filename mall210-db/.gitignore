@@ -1,0 +1,4 @@
+
+/target/
+/litemall-db.iml
+**/application-db.yml

@@ -17,11 +17,6 @@
 
         <dependency>
             <groupId>top.chengdonglu</groupId>
-            <artifactId>mall210-core</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>top.chengdonglu</groupId>
             <artifactId>mall210-db</artifactId>
         </dependency>
         <dependency>
@@ -44,6 +39,12 @@
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>swagger-bootstrap-ui</artifactId>
             <version>1.9.6</version>
+        </dependency>
+        <dependency>
+            <groupId>top.chengdonglu</groupId>
+            <artifactId>mall210-core</artifactId>
+            <version>0.1.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

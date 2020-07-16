@@ -31,17 +31,16 @@ public class AdminSwagger2Configuration {
                 .groupName("admin")
                 .apiInfo(adminApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("org.linlinjava.litemall.admin.web"))
+                .apis(RequestHandlerSelectors.basePackage("top.chengdonglu.mall210.admin.web"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo adminApiInfo() {
         return new ApiInfoBuilder()
-                .title("litemall-admin API")
-                .description("litemall管理后台API")
-                .termsOfServiceUrl("https://github.com/linlinjava/litemall")
-                .contact("https://github.com/linlinjava/litemall")
+                .title("mall210-admin API")
+                .description("mall210管理后台API")
+                .termsOfServiceUrl("https://github.com/Chengdonglu210/chengdonglu210-backend")
                 .version("1.0")
                 .build();
     }
