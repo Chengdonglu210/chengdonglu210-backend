@@ -27,7 +27,6 @@ jobs:
           java -Dfile.encoding=UTF-8 -jar litemall-all/target/litemall-all-0.1.0-exec.jar
     - name: Deploy
       uses: easingthemes/ssh-deploy@v2.0.7
-      run: |
-          echo "Ali!:
-      
+      env: 
+          SSH_PRIVATE_KEY: "123"
           
