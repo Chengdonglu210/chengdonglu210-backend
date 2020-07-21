@@ -23,7 +23,6 @@ jobs:
         uses: appleboy/ssh-action@v0.1.2
         with:
           host: ${{ secrets.HOST_IP }}
-          passphrase: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }} 
           script: |
