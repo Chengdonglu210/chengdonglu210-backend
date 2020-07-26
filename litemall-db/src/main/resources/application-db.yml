@@ -7,7 +7,7 @@ pagehelper:
 spring:
   datasource:
     druid:
-      url:  jdbc:mysql://rm-wz9lh1q42p05gn26gko.mysql.rds.aliyuncs.com:3306/chengdonglu210mall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
+      url:  jdbc:mysql://rm-wz9lh1q42p05gn26g.mysql.rds.aliyuncs.com:3306/chengdonglu210mall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
       driver-class-name:  com.mysql.cj.jdbc.Driver
       username:  chengdonglu210mall
       password:  chengdonglu210mall123456
