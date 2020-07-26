@@ -54,11 +54,11 @@
                     <verbose>true</verbose>
                 </configuration>
                 <dependencies>
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>8.0.16</version>
-                    </dependency>
+<!--                    <dependency>-->
+<!--                        <groupId>mysql</groupId>-->
+<!--                        <artifactId>mysql-connector-java</artifactId>-->
+<!--                        <version>8.0.16</version>-->
+<!--                    </dependency>-->
                     <dependency>
                         <groupId>com.itfsw</groupId>
                         <artifactId>mybatis-generator-plugin</artifactId>
