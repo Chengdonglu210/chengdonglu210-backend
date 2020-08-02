@@ -26,8 +26,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }} 
           script: |
-            cd /home/mall210/chengdonglu210-backend/
-            git pull
-            mvn install
-            mvn clean package
-            java -jar litemall-all/target/litemall-all-0.1.0-exec.jar
+            cd ~
+            ./start-backend.sh
