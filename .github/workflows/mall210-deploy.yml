@@ -26,5 +26,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }} 
           script: |
-            cd root
+            cd /root
             ./start-backend.sh
